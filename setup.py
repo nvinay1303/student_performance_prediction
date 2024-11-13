@@ -16,9 +16,10 @@ def get_requirements(file_path:str)->List[str]:
     
     return requirements
 
+# metadata information about the entire project
 setup(
 name='classic_mlproject',
-version='0.0.1',
+versionx    ='0.0.1',
 author='Nikhil',
 author_email='nvinay1303@gmail.com',
 packages=find_packages(),
